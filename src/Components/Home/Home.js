@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import League from '../League/League';
+import Team from '../Team/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import './Home.css'
@@ -25,7 +25,7 @@ const Home = () => {
             <div className="container">
                 <div className="league-container row"  xs={2} md={4} lg={6} >           
                     {
-                        teams.map(team => <League team={team}></League>)
+                        teams.map(team => <Team team={team}></Team>)
                     }
                 </div>
             </div>           

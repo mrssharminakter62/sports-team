@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from "./Components/Home/Home";
-import LeagueDetail from './Components/LeagueDetail/LeagueDetail';
-import NoMatch from './Components/NoMatch/NoMatch';
+import TeamDetail from "./Components/TeamDetail/TeamDetail";
+import NoMatch from "./Components/NoMatch/NoMatch";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Home></Home>
           </Route>
           <Route path="/team/:idTeam">
-          <LeagueDetail></LeagueDetail>
+            <TeamDetail></TeamDetail>
           </Route>
           <Route path="*">
             <NoMatch></NoMatch>

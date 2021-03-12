@@ -9,7 +9,7 @@ import  facebook from '../../Images/Icon/Facebook.png';
 import  twitter from '../../Images/Icon/Twitter.png';
 import  youtube from '../../Images/Icon/YouTube.png';
 
-const LeagueDetail = () => {
+const TeamDetail = () => {
     const {idTeam} = useParams();
     const [team, setTeam] = useState({});
 
@@ -50,7 +50,7 @@ const LeagueDetail = () => {
                                 <div>{gender}</div>
                        </Col>
                    </Row>
-                   
+
                     <div className="description">
                         <p>{team.strDescriptionEN}</p>
                         <br/>
@@ -67,4 +67,4 @@ const LeagueDetail = () => {
     );
 };
 
-export default LeagueDetail;
+export default TeamDetail;

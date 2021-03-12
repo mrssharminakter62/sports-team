@@ -5,13 +5,13 @@ import {faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import { Link, useHistory } from 'react-router-dom';
 
 
-const League = (props) => {
+const Team = (props) => {
 const {strTeam, strSport, strTeamBadge, idTeam} =props.team;
 
 const history = useHistory();
 
 const handleClick = (team ) => {
-    const url = `league/${team}`;
+    const url = `team/${team}`;
     history.push(url);
 }
     return (
@@ -26,4 +26,4 @@ const handleClick = (team ) => {
     );
 };
 
-export default League;
+export default Team;
