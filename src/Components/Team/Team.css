@@ -1,0 +1,21 @@
+.league-box{
+    border : 1px solid lemonchiffon;
+    margin : 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  .img_style{
+      width: 100px;
+      height: 100px;
+      border-radius: 40px;
+      text-align: center;
+    }
+    .btn-style{
+        background-color: rgb(40, 10, 136);
+        color: white;
+    }

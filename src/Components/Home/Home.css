@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(12, 4, 41);
+}
+.style-headline{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight : 700;
+    color:rgb(184, 11, 161);    
+}
+.banner{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://www.thesportsdb.com/images/media/league/fanart/foym7x1546535935.jpg");
+    background-repeat: no-repeat;   
+}
+.league-container{
+    display: flex;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: -100px;
+}
